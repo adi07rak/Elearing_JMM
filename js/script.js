@@ -742,3 +742,26 @@
 	
 
 })(window.jQuery);
+
+
+jQuery(document).ready(function($) 
+{
+	$(document).on('click', '.main_menu_li', function(event) 
+	{
+		$(this).addClass('active_main_menu');
+	});
+
+
+	//----------add active class on page load-------
+    // var path=window.location.href;
+    // console.log(path);
+
+    //             $(".navbar .nav-link").each(function()
+    //             {
+
+    //                 if (this.href == path) {
+    //                     var active=$(this).addClass('active');
+    //                     $('.navbar .nav-link').not(active).removeClass('active');
+    //                 }
+    //             });
+});

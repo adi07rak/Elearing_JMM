@@ -21169,3 +21169,7 @@ q
 {
   quotes: ❝ ❞;
 }
+.active_main_menu
+{
+  color: var(--yellow);
+}
